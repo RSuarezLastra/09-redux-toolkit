@@ -6,6 +6,6 @@ export const store = configureStore({
 
     reducer: {
         counter: counterSlice.reducer,
-        pokemons: pokemonSlice.reducer
+        pokemon: pokemonSlice.reducer
     },
 })
